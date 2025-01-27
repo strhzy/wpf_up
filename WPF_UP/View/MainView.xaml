@@ -1,0 +1,46 @@
+﻿<Window x:Class="WPF_UP.View.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:WPF_UP.View"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" 
+        mc:Ignorable="d"
+        Title="АИ «АвтоРемСервис»" MaxHeight="1080" MaxWidth="1920" MinHeight="720" MinWidth="1280">
+    <Grid>
+        <ui:Button Name="MainButton" Margin="15" VerticalAlignment="Top" Visibility="Collapsed" Panel.ZIndex="10" Background="#D9D9D9" Click="MainButton_OnClick">
+            <TextBlock Text="На главную"/>
+        </ui:Button>
+        <Frame Name="MainFrame" ></Frame>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <WrapPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button Name="ordersButton" Visibility="Collapsed" Background="#D9D9D9" Margin="100" Height="100" Width="250" Click="OrdersButton_OnClick">
+                    <TextBlock Text="Заказы" FontSize="35"></TextBlock>
+                </Button>
+                <Button Name="clientsButton" Visibility="Collapsed" Background="#D9D9D9" Margin="100" Height="100" Width="250" Click="ClientsButton_OnClick">
+                    <TextBlock Text="Клиенты" FontSize="35"></TextBlock>
+                </Button>
+                <Button Name="storeButton" Visibility="Collapsed" Background="#D9D9D9" Margin="100" Height="100" Width="250" Click="StoreButton_OnClick">
+                    <TextBlock Text="Склад" FontSize="35"></TextBlock>
+                </Button>
+                <Button Name="employeeButton" Visibility="Collapsed" Background="#D9D9D9" Margin="100" Height="100" Width="250">
+                    <TextBlock Text="Сотрудники" FontSize="35"></TextBlock>
+                </Button>
+                <Button Name="serviceButton" Visibility="Collapsed" Background="#D9D9D9" Margin="100" Height="100" Width="250">
+                    <TextBlock Text="СТО" FontSize="35"></TextBlock>
+                </Button>
+                <Button Name="reportsButton" Visibility="Collapsed" Background="#D9D9D9" Margin="100" Height="100" Width="250" Click="ReportsButton_OnClick">
+                    <TextBlock Text="Отчеты" FontSize="35"></TextBlock>
+                </Button>
+                <Button Name="scheduleButton" Visibility="Collapsed" Background="#D9D9D9" Margin="100" Height="100" Width="250">
+                    <TextBlock Text="Расписание" FontSize="35"></TextBlock>
+                </Button>
+            </WrapPanel>
+        </Grid>
+    </Grid>
+</Window>

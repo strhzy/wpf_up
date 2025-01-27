@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\sharaga\\\u0423\u041F-02.01-etc\\WPF_UP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{679676F5-4E80-42FD-86E7-29FC986BE057}|WPF_UP\\WPF_UP.csproj|d:\\sharaga\\\u0443\u043F-02.01-etc\\wpf_up\\wpf_up\\pages\\ordersmasterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{679676F5-4E80-42FD-86E7-29FC986BE057}|WPF_UP\\WPF_UP.csproj|solutionrelative:wpf_up\\pages\\ordersmasterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersMasterPage.xaml",
+              "DocumentMoniker": "D:\\sharaga\\\u0423\u041F-02.01-etc\\WPF_UP\\WPF_UP\\Pages\\OrdersMasterPage.xaml",
+              "RelativeDocumentMoniker": "WPF_UP\\Pages\\OrdersMasterPage.xaml",
+              "ToolTip": "D:\\sharaga\\\u0423\u041F-02.01-etc\\WPF_UP\\WPF_UP\\Pages\\OrdersMasterPage.xaml",
+              "RelativeToolTip": "WPF_UP\\Pages\\OrdersMasterPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-26T10:35:29.68Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
