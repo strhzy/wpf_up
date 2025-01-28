@@ -31,7 +31,7 @@
                 <Button Name="employeeButton" Visibility="Collapsed" Background="#D9D9D9" Margin="100" Height="100" Width="250">
                     <TextBlock Text="Сотрудники" FontSize="35"></TextBlock>
                 </Button>
-                <Button Name="serviceButton" Visibility="Collapsed" Background="#D9D9D9" Margin="100" Height="100" Width="250">
+                <Button Name="serviceButton" Visibility="Collapsed" Background="#D9D9D9" Margin="100" Height="100" Width="250" Click="ServiceButton_OnClick">
                     <TextBlock Text="СТО" FontSize="35"></TextBlock>
                 </Button>
                 <Button Name="reportsButton" Visibility="Collapsed" Background="#D9D9D9" Margin="100" Height="100" Width="250" Click="ReportsButton_OnClick">

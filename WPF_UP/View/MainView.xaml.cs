@@ -90,4 +90,11 @@ public partial class MainView : Window
         MainButton.Visibility = Visibility.Visible;
         HideAllButtons();
     }
+
+    private void ServiceButton_OnClick(object sender, RoutedEventArgs e)
+    {
+        MainFrame.Content = new ServiceStationPage();
+        MainButton.Visibility = Visibility.Visible;
+        HideAllButtons();
+    }
 }
